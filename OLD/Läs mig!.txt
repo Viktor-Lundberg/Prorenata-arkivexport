@@ -1,0 +1,4 @@
+1) Skriptet liten.py läser av de personnummer som finns i "lista.txt" och kopierar alla mappar vars namn som börjar på dessa personnummer. I elevlista output ser man vilka mappar och hur många som kopierats. På så sätt säkerställs att ingen elev missas från exporten.
+
+2) Skriptet ProRenatafleramapparPE2.py körs därefter. Detta skript kollar vilka personnummer som finns i lista.txt och kopierar mappar som matchar dessa till antingen en "högstadiemapp" eller en "gymnasiemapp" (eller PE-mapp). Därefter byter den namn på alla kopierade kataloger till personnumret för att underlätta inläsning. Avslutningsvis kopieras alla xml-filer till kataloger i mappen XML för att kunna användas vid inläsning i dropkatalogen. 
+Skriptet genererar dessutom en gallringslista med de mappar som ingår i arkiveringen för att fungera som underlag till leverantörens gallring i systemet.
